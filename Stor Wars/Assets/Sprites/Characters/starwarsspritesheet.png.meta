@@ -1,0 +1,744 @@
+fileFormatVersion: 2
+guid: 99bba86c120bb41d79acad4237d87994
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1351650324968971035
+    second: starwarsspritesheet_0
+  - first:
+      213: 9074629591729664911
+    second: starwarsspritesheet_1
+  - first:
+      213: 3646511423590948842
+    second: starwarsspritesheet_2
+  - first:
+      213: 3979294562665219428
+    second: starwarsspritesheet_3
+  - first:
+      213: -428447112907017586
+    second: starwarsspritesheet_4
+  - first:
+      213: -444708074247271382
+    second: starwarsspritesheet_5
+  - first:
+      213: 5928220327807772824
+    second: starwarsspritesheet_6
+  - first:
+      213: -2902693600290788203
+    second: starwarsspritesheet_7
+  - first:
+      213: -346665783743743748
+    second: starwarsspritesheet_8
+  - first:
+      213: -4450251410870000926
+    second: starwarsspritesheet_9
+  - first:
+      213: 7681847517110222285
+    second: starwarsspritesheet_10
+  - first:
+      213: -6347322515604505116
+    second: starwarsspritesheet_11
+  - first:
+      213: -102604687230592951
+    second: starwarsspritesheet_12
+  - first:
+      213: 3191241777321647519
+    second: starwarsspritesheet_13
+  - first:
+      213: -7330336664445872190
+    second: starwarsspritesheet_14
+  - first:
+      213: 2004053261524398634
+    second: starwarsspritesheet_15
+  - first:
+      213: -1787807609505482694
+    second: starwarsspritesheet_16
+  - first:
+      213: -4810452388353921605
+    second: starwarsspritesheet_17
+  - first:
+      213: -3197095937913272130
+    second: starwarsspritesheet_18
+  - first:
+      213: -3494920940925399928
+    second: starwarsspritesheet_19
+  - first:
+      213: 5736448120632765127
+    second: starwarsspritesheet_20
+  - first:
+      213: 4755199555894942926
+    second: starwarsspritesheet_21
+  - first:
+      213: 8003261790523604291
+    second: starwarsspritesheet_22
+  - first:
+      213: 1300356946289089217
+    second: starwarsspritesheet_23
+  - first:
+      213: -7582701246500516522
+    second: starwarsspritesheet_24
+  - first:
+      213: -2378440488693755040
+    second: starwarsspritesheet_25
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: starwarsspritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 504
+        width: 64
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4eea7d039fd3de0800000000000000
+      internalID: -1351650324968971035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starwarsspritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 504
+        width: 56
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f837b43c88f8fed70800000000000000
+      internalID: 9074629591729664911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starwarsspritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 499
+        width: 64
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aefda88d1d20b9230800000000000000
+      internalID: 3646511423590948842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starwarsspritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 504
+        width: 64
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465cd40525b493730800000000000000
+      internalID: 3979294562665219428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starwarsspritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 504
+        width: 66
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82b22eee99dd0af0800000000000000
+      internalID: -428447112907017586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starwarsspritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 504
+        width: 80
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c4eb5dc5414d9f0800000000000000
+      internalID: -444708074247271382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starwarsspritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 504
+        width: 87
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8986b35aaf4454250800000000000000
+      internalID: 5928220327807772824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starwarsspritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 344
+        width: 58
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c2ed6bc8f87b7d0800000000000000
+      internalID: -2902693600290788203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starwarsspritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 344
+        width: 56
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8fb207e45603bf0800000000000000
+      internalID: -346665783743743748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starwarsspritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 344
+        width: 63
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2a9e59be78d32c0800000000000000
+      internalID: -4450251410870000926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starwarsspritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 344
+        width: 72
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd321cdd976b9a60800000000000000
+      internalID: 7681847517110222285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starwarsspritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 384
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4edfd863dc7c9e7a0800000000000000
+      internalID: -6347322515604505116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starwarsspritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 344
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9489451a499739ef0800000000000000
+      internalID: -102604687230592951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starwarsspritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 344
+        width: 80
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d94a11d71994c20800000000000000
+      internalID: 3191241777321647519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starwarsspritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 344
+        width: 88
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c79ea734a9654a90800000000000000
+      internalID: -7330336664445872190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starwarsspritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 344
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22ff1cc2d3dfcb10800000000000000
+      internalID: 2004053261524398634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starwarsspritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 192
+        width: 72
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a387fac837e6037e0800000000000000
+      internalID: -1787807609505482694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starwarsspritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 192
+        width: 72
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd2c372a07dd3db0800000000000000
+      internalID: -4810452388353921605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starwarsspritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 192
+        width: 64
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8c5d3fe22a1a3d0800000000000000
+      internalID: -3197095937913272130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starwarsspritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 190
+        width: 70
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c411ecbeb8f7fc0800000000000000
+      internalID: -3494920940925399928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starwarsspritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 192
+        width: 71
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cae5c63c25fb9f40800000000000000
+      internalID: 5736448120632765127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starwarsspritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 32
+        width: 64
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc963d4dccddf140800000000000000
+      internalID: 4755199555894942926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starwarsspritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 32
+        width: 72
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34dbd94023c411f60800000000000000
+      internalID: 8003261790523604291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starwarsspritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 32
+        width: 64
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cad5c8c0cbcb0210800000000000000
+      internalID: 1300356946289089217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starwarsspritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 32
+        width: 64
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65dcc642465d4c690800000000000000
+      internalID: -7582701246500516522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starwarsspritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 32
+        width: 64
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06390002af41efed0800000000000000
+      internalID: -2378440488693755040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
