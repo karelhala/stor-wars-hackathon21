@@ -24,16 +24,16 @@ public class Movement : MonoBehaviour
     {
         movement.x = Input.GetAxis("Horizontal");
         movement.y = Input.GetAxis("Vertical");
+
+        if (Input.GetKeyDown("space"))
+        {
+            audio.PlayOneShot(audio.clip);
+        }
     }
 
     private void FixedUpdate()
     {
 
         myBody.MovePosition(myBody.position + movement * speed * Time.fixedDeltaTime);
-
-        if (Input.GetKeyDown("space"))
-        {
-            audio.PlayOneShot(audio.clip);
-        }
     }
 }
