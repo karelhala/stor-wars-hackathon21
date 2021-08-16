@@ -21,14 +21,10 @@ public class Object_animation : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         movement.x = Input.GetAxis("Horizontal");
         movement.y = Input.GetAxis("Vertical");
-    }
-
-    private void FixedUpdate()
-    {
         if(movement.x > 0 || movement.x < 0)
         {
             anim.SetBool(WALK_RIGHT, true);
