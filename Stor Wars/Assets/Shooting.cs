@@ -7,6 +7,7 @@ public class Shooting : MonoBehaviour
     public Transform firePoint;
     public GameObject bulletPrefab;
     private Rigidbody2D myBody;
+    private SpriteRenderer sr;
 
     public float bulletForce = 20f;
 
@@ -15,6 +16,7 @@ public class Shooting : MonoBehaviour
     void Start()
     {
         myBody = GetComponent<Rigidbody2D>();
+        sr = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -32,10 +34,17 @@ public class Shooting : MonoBehaviour
 
     void Shoot()
     {
-        GameObject bulltet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
-        Rigidbody2D rb = bulltet.GetComponent<Rigidbody2D>();
+        float angle = Mathf.Atan2(movement.y, movement.x) * Mathf.Rad2Deg;
+        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, Quaternion.AngleAxis(angle, Vector3.forward));
+        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
 
-        bulltet.GetComponent<Bullet>().creator = gameObject;
-        rb.AddForce(movement.y != 0 ? firePoint.up : firePoint.right * bulletForce, ForceMode2D.Impulse);
+        bullet.GetComponent<Bullet>().creator = gameObject;
+
+        if (sr.flipX)
+        {
+            rb.AddForce(movement.y != 0 ? firePoint.up : firePoint.right * (-1 * bulletForce), ForceMode2D.Impulse);
+        } else {
+            rb.AddForce(movement.y != 0 ? firePoint.up : firePoint.right * (1 * bulletForce), ForceMode2D.Impulse);
+        }
     }
 }
