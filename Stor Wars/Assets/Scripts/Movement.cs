@@ -11,17 +11,16 @@ public class Movement : MonoBehaviour
     public HeathBarScript heathBar;
 
     private Rigidbody2D myBody;
-    private AudioSource audio;
-    private AudioClip blasterFire;
+    public AudioSource saberSwing;
+    public AudioSource saberHit;
+    public GameObject saberPrefab;
+    public Color color;
 
     private Vector2 movement;
 
     void Start()
     {
         myBody = GetComponent<Rigidbody2D>();
-        audio = GetComponent<AudioSource>();
-
-        blasterFire = Resources.Load("Sounds/blaster") as AudioClip;
 
         currentHealth = maxHealth;
         heathBar.SetMaxHealth(maxHealth);
@@ -34,8 +33,12 @@ public class Movement : MonoBehaviour
 
         if (Input.GetKeyDown("space"))
         {
-            audio.PlayOneShot(audio.clip);
+            saberSwing.PlayOneShot(saberSwing.clip);
+            GameObject hit = Instantiate(saberPrefab, myBody.position, Quaternion.identity);
+            hit.GetComponent<Saber_Hit>().creator = gameObject;
+            hit.GetComponent<Saber_Hit>().SetColor(color);
         }
+
     }
 
     private void FixedUpdate()

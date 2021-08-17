@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bullet : MonoBehaviour
+public class Saber_Hit : MonoBehaviour
 {
     public GameObject hitEffect;
     public GameObject creator;
@@ -11,20 +11,15 @@ public class Bullet : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (creator.name != collision.transform.name)
+        if (creator && creator.name != collision.transform.name)
         {
             GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
             effect.GetComponent<Animation_Auto_Destroy>().SetColor(this.color);
-            // Destroy(effect, 1);
-            Destroy(gameObject);
         }
+        Destroy(gameObject);
     }
 
     public void SetColor(Color colorToTurnTo) {
         this.color = colorToTurnTo;
-        if (rend) {
-            rend = GetComponent<Renderer>();
-            rend.material.color = colorToTurnTo;
-        }
     }
 }
