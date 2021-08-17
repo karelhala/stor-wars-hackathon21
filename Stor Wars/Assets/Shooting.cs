@@ -39,6 +39,7 @@ public class Shooting : MonoBehaviour
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
 
         bullet.GetComponent<Bullet>().creator = gameObject;
+        bullet.GetComponent<Bullet>().SetColor(Color.red);
 
         if (sr.flipX)
         {
