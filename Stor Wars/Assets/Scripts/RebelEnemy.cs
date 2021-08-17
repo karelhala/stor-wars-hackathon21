@@ -10,10 +10,14 @@ public class RebelEnemy : MonoBehaviour
     private SpriteRenderer sr;
     private Animator anim;
     private GameObject player;
+    public Transform firePoint;
+    public GameObject bulletPrefab;
+
     private string WALK = "Walk";
     private string SHOOTING = "Shooting";
 
     public const float TIME_TO_RELOAD = 5;
+    public float bulletForce = 20f;
 
     public float timeRemaining = TIME_TO_RELOAD;
     private AudioSource audio;
@@ -59,7 +63,21 @@ public class RebelEnemy : MonoBehaviour
                 timeRemaining = 0;
                 audio.PlayOneShot(audio.clip);
                 anim.Play(SHOOTING);
+                Shoot();
             }
         }
+    }
+
+    void Shoot()
+    {
+        Vector3 playerPos = player.transform.position;
+        float angle = Mathf.Atan2(playerPos.y, playerPos.x) * Mathf.Rad2Deg;
+        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, Quaternion.AngleAxis(angle, Vector3.forward));
+        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+
+        bullet.GetComponent<Bullet>().creator = gameObject;
+        bullet.GetComponent<Bullet>().SetColor(Color.green);
+
+        rb.AddForce(playerPos - firePoint.position, ForceMode2D.Impulse);
     }
 }
