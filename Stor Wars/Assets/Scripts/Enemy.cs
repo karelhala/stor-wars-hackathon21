@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RebelEnemy : MonoBehaviour
+public class Enemy : MonoBehaviour
 {
     public float speed = 5f;
 
@@ -13,7 +13,8 @@ public class RebelEnemy : MonoBehaviour
     public Transform firePoint;
     public GameObject bulletPrefab;
 
-    private string WALK = "Walk";
+    public Color bulletColor;
+    private string WALK = "WALK";
     private string SHOOTING = "Shooting";
 
     public const float TIME_TO_RELOAD = 5;
@@ -28,7 +29,7 @@ public class RebelEnemy : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
         audio = GetComponent<AudioSource>();
-        player = GameObject.Find("Player");
+        player = GameObject.FindGameObjectsWithTag("Player")[0];
     }
 
     void FixedUpdate()
@@ -76,7 +77,7 @@ public class RebelEnemy : MonoBehaviour
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
 
         bullet.GetComponent<Bullet>().creator = gameObject;
-        bullet.GetComponent<Bullet>().SetColor(Color.green);
+        bullet.GetComponent<Bullet>().SetColor(bulletColor);
 
         rb.AddForce(playerPos - firePoint.position, ForceMode2D.Impulse);
     }
