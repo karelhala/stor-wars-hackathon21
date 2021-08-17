@@ -14,7 +14,7 @@ public class Bullet : MonoBehaviour
         if (creator.name != collision.transform.name)
         {
             GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
-            effect.GetComponent<Animation_Auto_Destroy>().SetColor(Color.red);
+            effect.GetComponent<Animation_Auto_Destroy>().SetColor(rend.material.color);
             // Destroy(effect, 1);
             Destroy(gameObject);
         }
