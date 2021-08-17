@@ -265,7 +265,7 @@ MonoBehaviour:
   speed: 5
   firePoint: {fileID: 5470041207307137379}
   bulletPrefab: {fileID: 4273742215057085940, guid: 5e4681b693138874ebc87a9c89f57f2c, type: 3}
-  bulletColor: {r: 0.6698113, g: 0.0473923, b: 0.0473923, a: 0}
+  bulletColor: {r: 0.6698113, g: 0.0473923, b: 0.0473923, a: 1}
   bulletForce: 20
   timeRemaining: 5
 --- !u!1 &7109790216552809398
