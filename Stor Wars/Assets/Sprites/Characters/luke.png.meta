@@ -1,0 +1,828 @@
+fileFormatVersion: 2
+guid: f31ed4abe2795364e9adb469b67e6f60
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4187893808519292379
+    second: luke_0
+  - first:
+      213: -2725937531940855447
+    second: luke_1
+  - first:
+      213: -817626458859290361
+    second: luke_2
+  - first:
+      213: 8441264544947802691
+    second: luke_3
+  - first:
+      213: -1824365987913541272
+    second: luke_4
+  - first:
+      213: -8774970160634895635
+    second: luke_5
+  - first:
+      213: -4716145504323835685
+    second: luke_6
+  - first:
+      213: 3317096002197224981
+    second: luke_7
+  - first:
+      213: -3903301427311829920
+    second: luke_8
+  - first:
+      213: 3819579551393824132
+    second: luke_9
+  - first:
+      213: -1255266230351561188
+    second: luke_10
+  - first:
+      213: -6007622741167788147
+    second: luke_11
+  - first:
+      213: -4593299683837255812
+    second: luke_12
+  - first:
+      213: 1514300231857838357
+    second: luke_13
+  - first:
+      213: -2352074623308027859
+    second: luke_14
+  - first:
+      213: -6508420965716750143
+    second: luke_15
+  - first:
+      213: -675572053899707372
+    second: luke_16
+  - first:
+      213: 1752283873539352073
+    second: luke_17
+  - first:
+      213: -1577824910691614179
+    second: luke_18
+  - first:
+      213: -1232228810689956520
+    second: luke_19
+  - first:
+      213: 1728446055098250514
+    second: luke_20
+  - first:
+      213: 1393348328989884086
+    second: luke_21
+  - first:
+      213: -2943690315469874490
+    second: luke_22
+  - first:
+      213: -3602209228572202876
+    second: luke_23
+  - first:
+      213: 4538637031951234071
+    second: luke_24
+  - first:
+      213: 425849874773755478
+    second: luke_25
+  - first:
+      213: 7098737914139541566
+    second: luke_26
+  - first:
+      213: 1009037120460220066
+    second: luke_27
+  - first:
+      213: -8508419460016056570
+    second: luke_28
+  - first:
+      213: -8100025308206677899
+    second: luke_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: luke_0
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 974
+        width: 63
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a562205cc91e5c0800000000000000
+      internalID: -4187893808519292379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_1
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 975
+        width: 56
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 961a2c0e1468b2ad0800000000000000
+      internalID: -2725937531940855447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_2
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 973
+        width: 57
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7014bb0511537a4f0800000000000000
+      internalID: -817626458859290361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_3
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 974
+        width: 58
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34296b04165652570800000000000000
+      internalID: 8441264544947802691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_4
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 970
+        width: 66
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869db16cccc8ea6e0800000000000000
+      internalID: -1824365987913541272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_5
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 970
+        width: 66
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de264b4712b093680800000000000000
+      internalID: -8774970160634895635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_6
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 783
+        width: 58
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8e8b9a6a2ec8eb0800000000000000
+      internalID: -4716145504323835685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_7
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 785
+        width: 57
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e75d04d31b80e20800000000000000
+      internalID: 3317096002197224981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_8
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 786
+        width: 57
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c9dcd4800b4d9c0800000000000000
+      internalID: -3903301427311829920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_9
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 784
+        width: 62
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48dbc207d5fd10530800000000000000
+      internalID: 3819579551393824132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_10
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 780
+        width: 66
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ef951a306649ee0800000000000000
+      internalID: -1255266230351561188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_11
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 780
+        width: 67
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8fa22852f2a0aca0800000000000000
+      internalID: -6007622741167788147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_12
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 596
+        width: 55
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f57fd16425140c0800000000000000
+      internalID: -4593299683837255812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_13
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 596
+        width: 53
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5199d2ba900e30510800000000000000
+      internalID: 1514300231857838357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_14
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 596
+        width: 55
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28a3888790cb5fd0800000000000000
+      internalID: -2352074623308027859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_15
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 595
+        width: 56
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c09fb16d917da5a0800000000000000
+      internalID: -6508420965716750143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_16
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 407
+        width: 52
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c702bdbc2ef96f0800000000000000
+      internalID: -675572053899707372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_17
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 406
+        width: 55
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90665f326ec515810800000000000000
+      internalID: 1752283873539352073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_18
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 407
+        width: 51
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12c6787a907a1ae0800000000000000
+      internalID: -1577824910691614179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_19
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 407
+        width: 52
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855b2d0ec6e36eee0800000000000000
+      internalID: -1232228810689956520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_20
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 217
+        width: 102
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2157e87878cacf710800000000000000
+      internalID: 1728446055098250514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_21
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 213
+        width: 94
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be73d54cea265310800000000000000
+      internalID: 1393348328989884086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_22
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 213
+        width: 77
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca19a12149e527d0800000000000000
+      internalID: -2943690315469874490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_23
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 212
+        width: 82
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488e15cbac1620ec0800000000000000
+      internalID: -3602209228572202876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_24
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 212
+        width: 72
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714f2e5755a7cfe30800000000000000
+      internalID: 4538637031951234071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_25
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 28
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656c881743ce8e500800000000000000
+      internalID: 425849874773755478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_26
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 23
+        width: 94
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3082eda588c38260800000000000000
+      internalID: 7098737914139541566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_27
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 23
+        width: 77
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6e63a3ae1d00e00800000000000000
+      internalID: 1009037120460220066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_28
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 23
+        width: 81
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607d8b5a4950ce980800000000000000
+      internalID: -8508419460016056570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luke_29
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 23
+        width: 70
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570caa0e5ede69f80800000000000000
+      internalID: -8100025308206677899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

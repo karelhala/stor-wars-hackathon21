@@ -7,10 +7,11 @@ public class Object_animation : MonoBehaviour
     private Rigidbody2D myBody;
     private Animator anim;
 
-    private string WALK_RIGHT = "WalkRight";
-    private string WALK_UP = "WalkUp";
-    private string WALK_DOWN = "WalkDown";
+    private string WALK = "WALK";
+    private string WALK_UP = "WALK_UP";
+    private string WALK_DOWN = "WALK_DOWN";
     private string SHOOTING = "Shooting";
+    private string ATTACK = "Attack";
 
     private Vector2 movement;
 
@@ -27,10 +28,10 @@ public class Object_animation : MonoBehaviour
         movement.y = Input.GetAxis("Vertical");
         if(movement.x > 0 || movement.x < 0)
         {
-            anim.SetBool(WALK_RIGHT, true);
+            anim.SetBool(WALK, true);
         } else
         {
-            anim.SetBool(WALK_RIGHT, false);
+            anim.SetBool(WALK, false);
         }
 
         if(movement.y > 0)
@@ -55,6 +56,7 @@ public class Object_animation : MonoBehaviour
         if (Input.GetKeyDown("space"))
         {
             anim.Play(SHOOTING);
+            anim.Play(ATTACK);
         }
     }
 }

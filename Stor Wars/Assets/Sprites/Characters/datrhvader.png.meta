@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: 23590901f36dc1f44ad3cfa31274b172
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -46498279825649640
+    second: datrhvader_0
+  - first:
+      213: 59973397616864212
+    second: datrhvader_1
+  - first:
+      213: 9098752387076911747
+    second: datrhvader_2
+  - first:
+      213: -4587237574368808400
+    second: datrhvader_3
+  - first:
+      213: -2618030736709551702
+    second: datrhvader_4
+  - first:
+      213: 7447560922507699243
+    second: datrhvader_5
+  - first:
+      213: 6466850062393761147
+    second: datrhvader_6
+  - first:
+      213: -4628786999123667838
+    second: datrhvader_7
+  - first:
+      213: 8385319673578405316
+    second: datrhvader_8
+  - first:
+      213: 549633298482524779
+    second: datrhvader_9
+  - first:
+      213: -788326140139886935
+    second: datrhvader_10
+  - first:
+      213: -9061344899448655220
+    second: datrhvader_11
+  - first:
+      213: -4849496728136858610
+    second: datrhvader_12
+  - first:
+      213: -8749340636568437665
+    second: datrhvader_13
+  - first:
+      213: -2520914329411326107
+    second: datrhvader_14
+  - first:
+      213: -7794195287069841076
+    second: datrhvader_15
+  - first:
+      213: 4882521522969992631
+    second: datrhvader_16
+  - first:
+      213: -2755656361468815219
+    second: datrhvader_17
+  - first:
+      213: 9060951174335302439
+    second: datrhvader_18
+  - first:
+      213: 5532225147645236036
+    second: datrhvader_19
+  - first:
+      213: 8034862553451442906
+    second: datrhvader_20
+  - first:
+      213: -2086102313391213236
+    second: datrhvader_21
+  - first:
+      213: -1875379385909404165
+    second: datrhvader_22
+  - first:
+      213: -2687078806389622865
+    second: datrhvader_23
+  - first:
+      213: -916041614127435751
+    second: datrhvader_24
+  - first:
+      213: -9062222099413127683
+    second: datrhvader_25
+  - first:
+      213: 9035877803276415286
+    second: datrhvader_26
+  - first:
+      213: 6686780360431915558
+    second: datrhvader_27
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: datrhvader_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 481
+        width: 55
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81053549f0eca5ff0800000000000000
+      internalID: -46498279825649640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datrhvader_1
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 481
+        width: 54
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db2de4cc7115d000800000000000000
+      internalID: 59973397616864212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datrhvader_2
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 481
+        width: 54
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382f4fab613454e70800000000000000
+      internalID: 9098752387076911747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datrhvader_3
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 481
+        width: 58
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0323c67fabbd650c0800000000000000
+      internalID: -4587237574368808400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datrhvader_4
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 476
+        width: 70
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa97f577ae2eaabd0800000000000000
+      internalID: -2618030736709551702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datrhvader_5
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 476
+        width: 93
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24e62d333d0b5760800000000000000
+      internalID: 7447560922507699243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datrhvader_6
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 476
+        width: 98
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d51b07edddeb950800000000000000
+      internalID: 6466850062393761147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datrhvader_7
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 477
+        width: 84
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2849948afbe33cfb0800000000000000
+      internalID: -4628786999123667838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datrhvader_8
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 477
+        width: 65
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd3cb7d0d3ae5470800000000000000
+      internalID: 8385319673578405316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datrhvader_9
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 331
+        width: 58
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62f6c8a290b0a700800000000000000
+      internalID: 549633298482524779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datrhvader_10
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 331
+        width: 54
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6aec16d8d4f05f0800000000000000
+      internalID: -788326140139886935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datrhvader_11
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 331
+        width: 54
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82b011b2d2af3280800000000000000
+      internalID: -9061344899448655220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datrhvader_12
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 331
+        width: 55
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04cbf36b6023bcb0800000000000000
+      internalID: -4849496728136858610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datrhvader_13
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 326
+        width: 70
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5cb27a0c09149680800000000000000
+      internalID: -8749340636568437665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datrhvader_14
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 326
+        width: 94
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56fee3616c9e30dd0800000000000000
+      internalID: -2520914329411326107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datrhvader_15
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 326
+        width: 98
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49ad2c8ea475d390800000000000000
+      internalID: -7794195287069841076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datrhvader_16
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 326
+        width: 84
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd53d8d47332c340800000000000000
+      internalID: 4882521522969992631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datrhvader_17
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 326
+        width: 66
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d881b9ba321f1c9d0800000000000000
+      internalID: -2755656361468815219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datrhvader_18
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 181
+        width: 61
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b0a690617febd70800000000000000
+      internalID: 9060951174335302439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datrhvader_19
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 181
+        width: 61
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44390e6f57966cc40800000000000000
+      internalID: 5532225147645236036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datrhvader_20
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 181
+        width: 61
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2bf8dfbe0918f60800000000000000
+      internalID: 8034862553451442906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datrhvader_21
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 181
+        width: 61
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c453235affcac03e0800000000000000
+      internalID: -2086102313391213236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datrhvader_22
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 180
+        width: 63
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd97cb726059f5e0800000000000000
+      internalID: -1875379385909404165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datrhvader_23
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 31
+        width: 56
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa77aa5ff0495bad0800000000000000
+      internalID: -2687078806389622865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datrhvader_24
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 31
+        width: 57
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910757e51019943f0800000000000000
+      internalID: -916041614127435751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datrhvader_25
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 31
+        width: 56
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd29c8a3058c3280800000000000000
+      internalID: -9062222099413127683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datrhvader_26
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 30
+        width: 57
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631b02aecf2e56d70800000000000000
+      internalID: 9035877803276415286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datrhvader_27
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 31
+        width: 58
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6225a9a4f473ccc50800000000000000
+      internalID: 6686780360431915558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
