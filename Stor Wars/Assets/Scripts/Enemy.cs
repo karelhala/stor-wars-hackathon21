@@ -18,7 +18,7 @@ public class Enemy : MonoBehaviour
     private string SHOOTING = "Shooting";
 
     public const float TIME_TO_RELOAD = 5;
-    public float bulletForce = 20f;
+    public float bulletForce = 1f;
 
     public float timeRemaining = TIME_TO_RELOAD;
     private AudioSource audio;
@@ -79,6 +79,8 @@ public class Enemy : MonoBehaviour
         bullet.GetComponent<Bullet>().creator = gameObject;
         bullet.GetComponent<Bullet>().SetColor(bulletColor);
 
-        rb.AddForce(playerPos - firePoint.position, ForceMode2D.Impulse);
+        var normalizedVector = Vector3.Normalize(playerPos - firePoint.position);
+
+        rb.AddForce(normalizedVector * 4f, ForceMode2D.Impulse);
     }
 }
