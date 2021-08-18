@@ -45,4 +45,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waweText: {fileID: 6889321671206076771, guid: 1c04a201214e54c0b94f0f7bef6f6601, type: 3}
   scoreBoard: {fileID: 1764523900644994796, guid: 6053e6fe99f5e4200a153c097b3ae7ad, type: 3}
-  enemyPrefab: {fileID: 5470041207307137380, guid: dd05285e575da3e47977ce4c29b0db4b, type: 3}
+  enemyStormTrooper: {fileID: 5470041207307137380, guid: dd05285e575da3e47977ce4c29b0db4b, type: 3}
+  enemyRebel: {fileID: 7960595536131820172, guid: eacdb554b0fd8774bac89a6561daa48f, type: 3}
