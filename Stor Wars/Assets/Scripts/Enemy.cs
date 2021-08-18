@@ -13,14 +13,20 @@ public class Enemy : MonoBehaviour
     public Transform firePoint;
     public GameObject bulletPrefab;
 
+    private GameObject gameDirector;
+
     public Color bulletColor;
+
     private string WALK = "WALK";
     private string SHOOTING = "Shooting";
 
-    public const float TIME_TO_RELOAD = 5;
-    public float bulletForce = 1f;
+    public float TIME_TO_RELOAD = 5;
+    public float MINIMAL_DISTANCE = 5;
+    public float SPEED = 0.03f;
 
-    public float timeRemaining = TIME_TO_RELOAD;
+    public int score = 10;
+
+    public float timeRemaining = 0;
     private AudioSource audio;
 
     void Start()
@@ -30,14 +36,37 @@ public class Enemy : MonoBehaviour
         anim = GetComponent<Animator>();
         audio = GetComponent<AudioSource>();
         player = GameObject.FindGameObjectsWithTag("Player")[0];
+        gameDirector = GameObject.FindGameObjectsWithTag("GameDirector")[0];
+
+        gameDirector.GetComponent<GameDirector>().AddEnemy();
+    }
+
+    public void SetStats(float timeToReload, float minimalDistance, float speed, int scoreMultiplier)
+    {
+        TIME_TO_RELOAD = timeToReload;
+        MINIMAL_DISTANCE = minimalDistance;
+        SPEED = speed;
+
+        score = scoreMultiplier * score;
+    }
+
+    private void OnDestroy()
+    {
+        gameDirector.GetComponent<GameDirector>().RemoveEnemy(score);
     }
 
     void FixedUpdate()
     {
+        if (Input.GetKeyDown("m"))
+        {
+            Destroy(gameObject);
+        }
+
+
         Vector2 pos = transform.position;
         Vector3 playerPos = player.transform.position;
 
-        if(timeRemaining < 10)
+        if(timeRemaining < TIME_TO_RELOAD)
         {
             timeRemaining += Time.deltaTime;
         }
@@ -50,11 +79,11 @@ public class Enemy : MonoBehaviour
             sr.flipX = false;
         }
 
-        if(Vector2.Distance(playerPos, pos) > 5)
+        if(Vector2.Distance(playerPos, pos) > MINIMAL_DISTANCE)
         {
             anim.SetBool(WALK, true);
 
-            transform.position = Vector3.MoveTowards(pos, playerPos, 0.03f);
+            transform.position = Vector3.MoveTowards(pos, playerPos, SPEED);
         } else
         {
             anim.SetBool(WALK, false);
