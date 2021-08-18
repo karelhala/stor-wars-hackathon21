@@ -7,9 +7,17 @@ public class Movement : MonoBehaviour
 {
     public float speed = 5f;
     public int maxHealth = 10;
+    public int maxForce = 10;
     public int currentHealth;
+    public int currentForce;
+
+    public float period = 5f;
 
     private HealthBarScript healthBar;
+    private Force_Bar forceBar;
+
+    private bool healthRefreshing;
+    private bool forcRefreshing;
 
     private Rigidbody2D myBody;
     public AudioSource saberSwing;
@@ -23,9 +31,15 @@ public class Movement : MonoBehaviour
     {
         myBody = GetComponent<Rigidbody2D>();
         healthBar = GameObject.FindWithTag("HealthBar").GetComponent<HealthBarScript>();
+        forceBar = GameObject.FindWithTag("ForceBar").GetComponent<Force_Bar>();
 
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
+
+        currentForce = maxForce;
+        forceBar.SetMaxForce(maxForce);
+
+        InvokeRepeating("Refreshing", 0f, 1f);
     }
 
     void Update()
@@ -41,6 +55,25 @@ public class Movement : MonoBehaviour
             hit.GetComponent<Saber_Hit>().SetColor(color);
         }
 
+        if (Input.GetKeyDown(KeyCode.RightControl) || Input.GetKeyDown(KeyCode.LeftControl))
+        {
+            currentForce -= 1;
+            forceBar.SetForce(currentForce);
+        }
+    }
+
+    void Refreshing()
+    {
+        if (healthRefreshing && currentHealth < maxHealth)
+        {
+            currentHealth += 1;
+            healthBar.SetHealth(currentHealth);
+        }
+        if (forcRefreshing && currentForce < maxForce)
+        {
+            currentForce += 1;
+            forceBar.SetForce(currentForce);
+        }
     }
 
     private void FixedUpdate()
@@ -69,5 +102,23 @@ public class Movement : MonoBehaviour
         {
             TakeHit();
         }
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.transform.name == "Health")
+        {
+            healthRefreshing = true;
+        }
+        else if (collision.transform.name == "Force")
+        {
+            forcRefreshing = true;
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D collision)
+    {
+        healthRefreshing = false;
+        forcRefreshing = false;
     }
 }

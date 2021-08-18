@@ -170,7 +170,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   maxHealth: 10
+  maxForce: 10
   currentHealth: 0
+  currentForce: 0
   saberSwing: {fileID: -4947945473491999712}
   saberHit: {fileID: -7758450849683033780}
   saberPrefab: {fileID: 653451831711357250, guid: b78e8ac23275cc348aeb843f129fcfbe, type: 3}
