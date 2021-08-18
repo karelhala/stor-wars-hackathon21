@@ -74,8 +74,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 722378995
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 8198462338293117597, guid: 091fbe992059c4f1582c0ccff0edd358, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -170,7 +170,10 @@ MonoBehaviour:
   firePoint: {fileID: 7960595536131820162}
   bulletPrefab: {fileID: 4273742215057085940, guid: 5e4681b693138874ebc87a9c89f57f2c, type: 3}
   bulletColor: {r: 0.12829298, g: 0.16331112, b: 0.8773585, a: 1}
-  bulletForce: 20
+  TIME_TO_RELOAD: 5
+  MINIMAL_DISTANCE: 5
+  SPEED: 0.03
+  score: 10
   timeRemaining: 5
 --- !u!82 &7960595536131820165
 AudioSource:

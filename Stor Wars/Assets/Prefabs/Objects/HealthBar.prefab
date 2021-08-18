@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6405782155811407021}
   m_Layer: 5
   m_Name: HealthBar
-  m_TagString: Untagged
+  m_TagString: HealthBar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4712126204757398346}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c789c4b2fc1de4ac48baae6d14af71c9, type: 3}
+  m_Script: {fileID: 11500000, guid: c02682ad8db611b41ac63e5db717494c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 3094265070229735992}

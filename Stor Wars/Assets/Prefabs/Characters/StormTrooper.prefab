@@ -74,8 +74,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 722378995
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -428447112907017586, guid: 99bba86c120bb41d79acad4237d87994, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -266,7 +266,10 @@ MonoBehaviour:
   firePoint: {fileID: 5470041207307137379}
   bulletPrefab: {fileID: 4273742215057085940, guid: 5e4681b693138874ebc87a9c89f57f2c, type: 3}
   bulletColor: {r: 0.6698113, g: 0.0473923, b: 0.0473923, a: 1}
-  bulletForce: 20
+  TIME_TO_RELOAD: 5
+  MINIMAL_DISTANCE: 5
+  SPEED: 0.03
+  score: 10
   timeRemaining: 5
 --- !u!1 &7109790216552809398
 GameObject:

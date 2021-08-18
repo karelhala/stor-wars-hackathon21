@@ -8,7 +8,7 @@ public class Movement : MonoBehaviour
     public int maxHealth = 10;
     public int currentHealth;
 
-    public HeathBarScript heathBar;
+    private HealthBarScript healthBar;
 
     private Rigidbody2D myBody;
     public AudioSource saberSwing;
@@ -21,9 +21,10 @@ public class Movement : MonoBehaviour
     void Start()
     {
         myBody = GetComponent<Rigidbody2D>();
+        healthBar = GameObject.FindWithTag("HealthBar").GetComponent<HealthBarScript>();
 
         currentHealth = maxHealth;
-        heathBar.SetMaxHealth(maxHealth);
+        healthBar.SetMaxHealth(maxHealth);
     }
 
     void Update()
@@ -50,12 +51,12 @@ public class Movement : MonoBehaviour
     private void TakeHit()
     {
         currentHealth -= 1;
-        heathBar.SetHealth(currentHealth);
+        healthBar.SetHealth(currentHealth);
     }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log(collision.transform.GetComponent<Bullet>());
+        Debug.Log(collision.transform.GetComponent<Bullet>() + " this is bulet! " + transform.name + "  " + collision.transform.GetComponent<Bullet>().creator.name);
         if (collision.transform.GetComponent<Bullet>() &&
             transform.name != collision.transform.GetComponent<Bullet>().creator.name
             )

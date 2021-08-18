@@ -12,7 +12,9 @@ public class GameDirector : MonoBehaviour
 
     public Text waweText;
     public Text scoreBoard;
-    public GameObject enemyPrefab;
+    public GameObject enemyStormTrooper;
+    public GameObject enemyRebel;
+    private GameObject enemyPrefab;
 
     private float countdown;
     private bool nextWave;
@@ -74,6 +76,8 @@ public class GameDirector : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        enemyPrefab = GameObject.FindWithTag("Player").transform.name == "Luke" ? enemyStormTrooper : enemyRebel;
+
         spawners = GameObject.FindGameObjectsWithTag("Spawner");
         NextWave();
     }
