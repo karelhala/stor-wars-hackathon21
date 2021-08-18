@@ -52,7 +52,7 @@ public class Movement : MonoBehaviour
     private void TakeHit()
     {
         currentHealth -= 1;
-        heathBar.SetHealth(currentHealth);
+        healthBar.SetHealth(currentHealth);
 
         if(currentHealth <= 0)
         {
