@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Movement : MonoBehaviour
 {
@@ -51,6 +52,11 @@ public class Movement : MonoBehaviour
     {
         currentHealth -= 1;
         heathBar.SetHealth(currentHealth);
+
+        if(currentHealth <= 0)
+        {
+            SceneManager.LoadScene("GameOverScene");
+        }
     }
 
     void OnCollisionEnter2D(Collision2D collision)

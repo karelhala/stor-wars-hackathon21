@@ -23,6 +23,7 @@ public class GameDirector : MonoBehaviour
     {
         score += additionalScore;
         scoreBoard.text = score.ToString();
+        GameObject.FindGameObjectsWithTag("ScorePreserver")[0].GetComponent<ScorePreserver>().score = score;
     }
 
     public void NextWave()
