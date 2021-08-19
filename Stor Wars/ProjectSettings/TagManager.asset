@@ -12,6 +12,7 @@ TagManager:
   - Enemy
   - GameStats
   - ControlScreen
+  - EnterName
   layers:
   - Default
   - TransparentFX
