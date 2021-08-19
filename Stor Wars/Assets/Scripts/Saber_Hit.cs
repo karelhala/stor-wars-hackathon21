@@ -15,6 +15,11 @@ public class Saber_Hit : MonoBehaviour
         {
             GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
             effect.GetComponent<Animation_Auto_Destroy>().SetColor(this.color);
+
+            if(collision.transform.CompareTag("Enemy"))
+            {
+                Destroy(collision.transform.gameObject);
+            }
         }
         Destroy(gameObject);
     }

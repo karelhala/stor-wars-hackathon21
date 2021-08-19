@@ -53,6 +53,11 @@ public class Movement : MonoBehaviour
             GameObject hit = Instantiate(saberPrefab, myBody.position, Quaternion.identity);
             hit.GetComponent<Saber_Hit>().creator = gameObject;
             hit.GetComponent<Saber_Hit>().SetColor(color);
+
+            if(GetComponent<SpriteRenderer>().flipX)
+            {
+                hit.transform.localScale = new Vector3(hit.transform.localScale.x * -1, hit.transform.localScale.y, hit.transform.localScale.z);
+            }
         }
 
         if (Input.GetKeyDown(KeyCode.RightControl) || Input.GetKeyDown(KeyCode.LeftControl))
