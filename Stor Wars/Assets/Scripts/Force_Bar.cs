@@ -17,4 +17,9 @@ public class Force_Bar : MonoBehaviour
     {
         slider.value = force;
     }
+
+    public float GetForce()
+    {
+        return slider.value;
+    }
 }

@@ -85,7 +85,7 @@ public class GameDirector : MonoBehaviour
         zeroLoc.x = 0;
         zeroLoc.y = 0;
         Instantiate(heroName == "Vader" ? darthVaderHero : lukeHero, zeroLoc, Quaternion.identity);
-        enemyPrefab = GameObject.FindWithTag("Player").transform.name == "Luke" ? enemyStormTrooper : enemyRebel;
+        enemyPrefab = heroName == "Vader" ? enemyRebel : enemyStormTrooper;
         var stats = GameObject.FindGameObjectsWithTag("GameStats");
         waweText = findGOByName(stats, "WaveText").GetComponent<Text>();
         scoreBoard = findGOByName(stats, "ScoreText").GetComponent<Text>();

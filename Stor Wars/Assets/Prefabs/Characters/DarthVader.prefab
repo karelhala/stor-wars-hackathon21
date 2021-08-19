@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 376331748939255428}
   - component: {fileID: -4947945473491999712}
   - component: {fileID: -7758450849683033780}
+  - component: {fileID: 445709374755795011}
   m_Layer: 0
   m_Name: DarthVader
   m_TagString: Player
@@ -33,8 +34,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 376331748939255452}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.100814, y: -3.2340019, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -7.0038, y: -3.1173, z: 0}
+  m_LocalScale: {x: 1.2773, y: 1.2407, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -173,6 +174,7 @@ MonoBehaviour:
   maxForce: 10
   currentHealth: 0
   currentForce: 0
+  period: 5
   saberSwing: {fileID: -4947945473491999712}
   saberHit: {fileID: -7758450849683033780}
   saberPrefab: {fileID: 653451831711357250, guid: b78e8ac23275cc348aeb843f129fcfbe, type: 3}
@@ -393,3 +395,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &445709374755795011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376331748939255452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c9bd8c271b3e6046b8f9ed752fa3d35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firePoint: {fileID: 376331748939255426}
+  bulletPrefab: {fileID: 5668291755367696871, guid: 9df8a09abe43d7e4694f0eb16f9951b0, type: 3}
+  bulletForce: 20

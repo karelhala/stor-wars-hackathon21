@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 1336017393199181079}
   - component: {fileID: -7936262935010300048}
   - component: {fileID: 2680486976281725141}
+  - component: {fileID: -5488627571190314410}
   m_Layer: 0
   m_Name: Luke
   m_TagString: Player
@@ -170,7 +171,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   maxHealth: 10
+  maxForce: 10
   currentHealth: 0
+  currentForce: 0
+  period: 0.1
   saberSwing: {fileID: -7936262935010300048}
   saberHit: {fileID: 2680486976281725141}
   saberPrefab: {fileID: 653451831711357250, guid: b78e8ac23275cc348aeb843f129fcfbe, type: 3}
@@ -391,3 +395,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-5488627571190314410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336017393199181071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c9bd8c271b3e6046b8f9ed752fa3d35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firePoint: {fileID: 1336017393199181077}
+  bulletPrefab: {fileID: 5668291755367696871, guid: 9df8a09abe43d7e4694f0eb16f9951b0, type: 3}
+  bulletForce: 20
