@@ -12,6 +12,7 @@ public class Enemy : MonoBehaviour
     private GameObject player;
     public Transform firePoint;
     public GameObject bulletPrefab;
+    public GameObject corpsePrefab;
 
     private GameObject gameDirector;
 
@@ -53,6 +54,11 @@ public class Enemy : MonoBehaviour
     private void OnDestroy()
     {
         gameDirector.GetComponent<GameDirector>().RemoveEnemy(score);
+
+        GameObject corpse = Instantiate(corpsePrefab, myBody.position, Quaternion.identity);
+
+        corpse.GetComponent<SpriteRenderer>().flipX = sr.flipX;
+        corpse.transform.localScale = transform.localScale;
     }
 
     void FixedUpdate()

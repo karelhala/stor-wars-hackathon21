@@ -169,6 +169,7 @@ MonoBehaviour:
   speed: 5
   firePoint: {fileID: 7960595536131820162}
   bulletPrefab: {fileID: 4273742215057085940, guid: 5e4681b693138874ebc87a9c89f57f2c, type: 3}
+  corpsePrefab: {fileID: 9210374251566832031, guid: 9ef0af1e022a142dcb5ca84e13b1c389, type: 3}
   bulletColor: {r: 0.12829298, g: 0.16331112, b: 0.8773585, a: 1}
   TIME_TO_RELOAD: 5
   MINIMAL_DISTANCE: 5
