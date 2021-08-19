@@ -194,6 +194,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1764523900644994796, guid: 6053e6fe99f5e4200a153c097b3ae7ad, type: 3}
+      propertyPath: m_Text
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1764523900644994797, guid: 6053e6fe99f5e4200a153c097b3ae7ad, type: 3}
       propertyPath: m_Name
       value: ScoreText
@@ -415,11 +419,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6889321671206076770, guid: 1c04a201214e54c0b94f0f7bef6f6601, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -1178
+      value: -1183
       objectReference: {fileID: 0}
     - target: {fileID: 6889321671206076770, guid: 1c04a201214e54c0b94f0f7bef6f6601, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 476.34
+      value: 476.35
       objectReference: {fileID: 0}
     - target: {fileID: 6889321671206076770, guid: 1c04a201214e54c0b94f0f7bef6f6601, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

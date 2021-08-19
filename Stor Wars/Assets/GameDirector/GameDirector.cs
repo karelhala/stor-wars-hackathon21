@@ -10,6 +10,8 @@ public class GameDirector : MonoBehaviour
     private int enemiesCounter = 0;
     private int lastSpawnIndex = 0;
 
+    public static string heroName;
+
     public Text waweText;
     public Text scoreBoard;
     public GameObject enemyStormTrooper;
@@ -79,6 +81,10 @@ public class GameDirector : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Vector2 zeroLoc;
+        zeroLoc.x = 0;
+        zeroLoc.y = 0;
+        Instantiate(heroName == "Vader" ? darthVaderHero : lukeHero, zeroLoc, Quaternion.identity);
         enemyPrefab = GameObject.FindWithTag("Player").transform.name == "Luke" ? enemyStormTrooper : enemyRebel;
         var stats = GameObject.FindGameObjectsWithTag("GameStats");
         waweText = findGOByName(stats, "WaveText").GetComponent<Text>();

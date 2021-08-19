@@ -47,5 +47,5 @@ MonoBehaviour:
   scoreBoard: {fileID: 0}
   enemyStormTrooper: {fileID: 5470041207307137380, guid: dd05285e575da3e47977ce4c29b0db4b, type: 3}
   enemyRebel: {fileID: 7960595536131820172, guid: eacdb554b0fd8774bac89a6561daa48f, type: 3}
-  lukeHero: {fileID: 0}
-  darthVaderHero: {fileID: 0}
+  lukeHero: {fileID: 1336017393199181071, guid: c696f2c81cc950b49aa63a7d94e88bd3, type: 3}
+  darthVaderHero: {fileID: 376331748939255452, guid: c909942d0d5583449929f07518e0587a, type: 3}

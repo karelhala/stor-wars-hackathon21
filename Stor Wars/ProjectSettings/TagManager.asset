@@ -10,6 +10,7 @@ TagManager:
   - ForceBar
   - HealthBar
   - Enemy
+  - GameStats
   layers:
   - Default
   - TransparentFX
