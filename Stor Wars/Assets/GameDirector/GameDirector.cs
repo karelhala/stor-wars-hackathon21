@@ -14,6 +14,8 @@ public class GameDirector : MonoBehaviour
     public Text scoreBoard;
     public GameObject enemyStormTrooper;
     public GameObject enemyRebel;
+    public GameObject lukeHero;
+    public GameObject darthVaderHero;
     private GameObject enemyPrefab;
 
     private float countdown;
@@ -78,9 +80,25 @@ public class GameDirector : MonoBehaviour
     void Start()
     {
         enemyPrefab = GameObject.FindWithTag("Player").transform.name == "Luke" ? enemyStormTrooper : enemyRebel;
+        var stats = GameObject.FindGameObjectsWithTag("GameStats");
+        waweText = findGOByName(stats, "WaveText").GetComponent<Text>();
+        scoreBoard = findGOByName(stats, "ScoreText").GetComponent<Text>();
 
         spawners = GameObject.FindGameObjectsWithTag("Spawner");
         NextWave();
+    }
+
+    GameObject findGOByName(GameObject[] arr, string name) {
+        for (int i = 0; i < arr.Length; i++) 
+        {
+            if (arr[i].transform.name == name)
+            {
+                return arr[i];
+            }
+        }
+    
+        Debug.Log ("No item witth name '" + name + "'.");
+        return null;
     }
 
     // Update is called once per frame

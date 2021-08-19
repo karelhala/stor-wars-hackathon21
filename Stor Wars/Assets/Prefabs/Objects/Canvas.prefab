@@ -198,6 +198,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ScoreText
       objectReference: {fileID: 0}
+    - target: {fileID: 1764523900644994797, guid: 6053e6fe99f5e4200a153c097b3ae7ad, type: 3}
+      propertyPath: m_TagString
+      value: GameStats
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6053e6fe99f5e4200a153c097b3ae7ad, type: 3}
 --- !u!224 &928167752312370556 stripped
@@ -340,6 +344,10 @@ PrefabInstance:
     - target: {fileID: 6889321671206076769, guid: 1c04a201214e54c0b94f0f7bef6f6601, type: 3}
       propertyPath: m_Name
       value: WaveText
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889321671206076769, guid: 1c04a201214e54c0b94f0f7bef6f6601, type: 3}
+      propertyPath: m_TagString
+      value: GameStats
       objectReference: {fileID: 0}
     - target: {fileID: 6889321671206076770, guid: 1c04a201214e54c0b94f0f7bef6f6601, type: 3}
       propertyPath: m_Pivot.x
