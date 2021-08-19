@@ -100,7 +100,6 @@ public class Movement : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log(collision.transform.GetComponent<Bullet>() + " this is bulet! " + transform.name + "  " + collision.transform.GetComponent<Bullet>().creator.name);
         if (collision.transform.GetComponent<Bullet>() &&
             transform.name != collision.transform.GetComponent<Bullet>().creator.name
             )

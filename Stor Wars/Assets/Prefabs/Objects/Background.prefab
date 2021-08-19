@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6642722988362636247}
   - component: {fileID: 3688767400986027231}
-  - component: {fileID: 7193612585410827398}
+  - component: {fileID: 5493941648258772972}
   m_Layer: 0
   m_Name: DinnerTable (1)
   m_TagString: Untagged
@@ -83,8 +83,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &7193612585410827398
-BoxCollider2D:
+--- !u!60 &5493941648258772972
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -96,7 +96,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.037061155, y: 0.15493864}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -106,9 +106,19 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2.2057629, y: 1.2435246}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.41430494, y: 0.60807383}
+      - {x: -0.57043517, y: 0.24521671}
+      - {x: -0.91636777, y: 0.16161518}
+      - {x: -1.0143049, y: -0.34881976}
+      - {x: -0.84085226, y: -0.34645864}
+      - {x: 0.8632737, y: -0.38484418}
+      - {x: 0.96533656, y: -0.32322899}
+      - {x: 1.0662353, y: 0.06880945}
+      - {x: 0.9653365, y: 0.07204875}
+      - {x: 0.63073045, y: 0.12898777}
+      - {x: -0.11224211, y: 0.6464587}
 --- !u!1 &938939249530369237
 GameObject:
   m_ObjectHideFlags: 0
@@ -659,7 +669,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1714785400537301990}
   - component: {fileID: 8496029464448554526}
-  - component: {fileID: 7196015841246680618}
+  - component: {fileID: 6597167913683100223}
   m_Layer: 0
   m_Name: Gravestone
   m_TagString: Untagged
@@ -732,8 +742,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &7196015841246680618
-BoxCollider2D:
+--- !u!60 &6597167913683100223
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -745,7 +755,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.026712418, y: 0}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -755,9 +765,18 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.4054527, y: 2.5}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.21767998, y: 1.2570496}
+      - {x: -0.40958405, y: 1.1464596}
+      - {x: -0.52367824, y: 0.9907069}
+      - {x: -0.6698189, y: 0.8796005}
+      - {x: -0.75719184, y: 0.86411273}
+      - {x: -0.76384085, y: -1.0505438}
+      - {x: 0.76384085, y: -1.0704894}
+      - {x: 0.75719184, y: 0.82340586}
+      - {x: 0.5863743, y: 0.87593746}
+      - {x: 0.45746422, y: 1.2632971}
 --- !u!1 &2795935812750517761
 GameObject:
   m_ObjectHideFlags: 0
@@ -924,7 +943,7 @@ GameObject:
   m_Component:
   - component: {fileID: 714048288874261849}
   - component: {fileID: 1911353443880302155}
-  - component: {fileID: 5613402350894471621}
+  - component: {fileID: 8850413711446085064}
   m_Layer: 0
   m_Name: DinnerTable
   m_TagString: Untagged
@@ -997,8 +1016,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &5613402350894471621
-BoxCollider2D:
+--- !u!60 &8850413711446085064
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1010,7 +1029,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.037061155, y: 0.15493864}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1020,9 +1039,19 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2.2057629, y: 1.2435246}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.4062371, y: 0.5427555}
+      - {x: -0.6882981, y: 0.07797223}
+      - {x: -0.9300546, y: 0.040753067}
+      - {x: -0.9593555, y: -0.3020017}
+      - {x: -0.8534953, y: -0.36525282}
+      - {x: 0.9703226, y: -0.3285039}
+      - {x: 0.9534949, y: -0.18562968}
+      - {x: 0.9007532, y: 0.10200243}
+      - {x: 0.66595227, y: 0.11466029}
+      - {x: 0.1947775, y: 0.2861433}
+      - {x: -0.1, y: 0.8}
 --- !u!1 &3501180189534042154
 GameObject:
   m_ObjectHideFlags: 0
@@ -2735,7 +2764,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2366507438204592576}
   - component: {fileID: 4960795354161756290}
-  - component: {fileID: 4962014793777428560}
+  - component: {fileID: 8702697553731027335}
   m_Layer: 0
   m_Name: DinnerTable (2)
   m_TagString: Untagged
@@ -2808,8 +2837,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &4962014793777428560
-BoxCollider2D:
+--- !u!60 &8702697553731027335
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2821,7 +2850,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.037061155, y: 0.15493864}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2831,9 +2860,19 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2.2057629, y: 1.2435246}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.42654672, y: 0.63366395}
+      - {x: -0.60316503, y: 0.095103174}
+      - {x: -0.9041249, y: 0.2}
+      - {x: -0.9898208, y: -0.28484416}
+      - {x: -0.58376634, y: -0.30807316}
+      - {x: -0.25705725, y: -0.35039398}
+      - {x: 0.8510316, y: -0.37204877}
+      - {x: 0.94085234, y: -0.23366326}
+      - {x: 0.96533585, y: 0.1616152}
+      - {x: 0.67973995, y: 0.108921185}
+      - {x: -0.11224244, y: 0.62086856}
 --- !u!1 &8538363168524384750
 GameObject:
   m_ObjectHideFlags: 0
