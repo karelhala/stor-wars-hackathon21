@@ -96,6 +96,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dcfd2dc440105f4782cde5b5c330274, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lukeHero: {fileID: 1336017393199181071, guid: c696f2c81cc950b49aa63a7d94e88bd3, type: 3}
+  darthVaderHero: {fileID: 376331748939255452, guid: c909942d0d5583449929f07518e0587a, type: 3}
   minX: -19.3
   maxX: 19.5
   minY: -14.39

@@ -13,6 +13,7 @@ public class Select_Hero : MonoBehaviour
 
     public void TaskOnClick(){
         GameDirector.heroName = transform.name;
+        Camera_Follow.heroName = transform.name;
         SceneManager.LoadScene("KarelScene");
 	}
 }

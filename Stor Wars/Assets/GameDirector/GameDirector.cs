@@ -16,8 +16,6 @@ public class GameDirector : MonoBehaviour
     public Text scoreBoard;
     public GameObject enemyStormTrooper;
     public GameObject enemyRebel;
-    public GameObject lukeHero;
-    public GameObject darthVaderHero;
     private GameObject enemyPrefab;
 
     private float countdown;
@@ -81,10 +79,6 @@ public class GameDirector : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Vector2 zeroLoc;
-        zeroLoc.x = 0;
-        zeroLoc.y = 0;
-        Instantiate(heroName == "Vader" ? darthVaderHero : lukeHero, zeroLoc, Quaternion.identity);
         enemyPrefab = heroName == "Vader" ? enemyRebel : enemyStormTrooper;
         var stats = GameObject.FindGameObjectsWithTag("GameStats");
         waweText = findGOByName(stats, "WaveText").GetComponent<Text>();

@@ -49,3 +49,4 @@ MonoBehaviour:
   enemyRebel: {fileID: 7960595536131820172, guid: eacdb554b0fd8774bac89a6561daa48f, type: 3}
   lukeHero: {fileID: 1336017393199181071, guid: c696f2c81cc950b49aa63a7d94e88bd3, type: 3}
   darthVaderHero: {fileID: 376331748939255452, guid: c909942d0d5583449929f07518e0587a, type: 3}
+  cameraPrefab: {fileID: 3066045689840245681, guid: 1834d0c9dad8cee4abccd8942bb21d5b, type: 3}

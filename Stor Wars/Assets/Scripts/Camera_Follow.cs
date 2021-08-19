@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class Camera_Follow : MonoBehaviour
 {
+    public static string heroName;
+
     private Transform player;
 
     private Vector3 tempPos;
+    public GameObject lukeHero;
+    public GameObject darthVaderHero;
 
     [SerializeField]
     private float minX, maxX, minY, maxY;
@@ -14,7 +18,10 @@ public class Camera_Follow : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.FindWithTag("Player").transform;
+        Vector2 zeroLoc;
+        zeroLoc.x = 0;
+        zeroLoc.y = 0;
+        player = Instantiate(heroName == "Vader" ? darthVaderHero : lukeHero, zeroLoc, Quaternion.identity).transform;
     }
 
     // Update is called once per frame
