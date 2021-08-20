@@ -26,6 +26,7 @@ public class Enemy : MonoBehaviour
 
     public float TIME_TO_RELOAD = 2;
     public float MINIMAL_DISTANCE = 5;
+    public float RUN_DISTANCE = 15;
     public float SPEED = 0.03f;
 
     public int score = 10;
@@ -95,6 +96,9 @@ public class Enemy : MonoBehaviour
         Vector2 pos = transform.position;
         Vector3 playerPos = player.transform.position;
 
+        var distance = Vector3.Distance(pos,playerPos);
+        Debug.Log("The distance is! " + distance);
+
         if(timeRemaining < TIME_TO_RELOAD)
         {
             timeRemaining += Time.deltaTime;
@@ -108,11 +112,11 @@ public class Enemy : MonoBehaviour
             sr.flipX = false;
         }
 
-        if(Vector2.Distance(playerPos, pos) > MINIMAL_DISTANCE)
+        if(distance > MINIMAL_DISTANCE)
         {
             anim.SetBool(WALK, true);
 
-            transform.position = Vector3.MoveTowards(pos, playerPos, SPEED);
+            transform.position = Vector3.MoveTowards(pos, playerPos, distance > RUN_DISTANCE ? SPEED * 10 : SPEED);
         } else
         {
             anim.SetBool(WALK, false);
