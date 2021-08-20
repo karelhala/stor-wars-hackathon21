@@ -88,7 +88,7 @@ public class Enemy : MonoBehaviour
     {
         if (Input.GetKeyDown("m"))
         {
-            Destroy(gameObject);
+            // Destroy(gameObject);
         }
 
 
