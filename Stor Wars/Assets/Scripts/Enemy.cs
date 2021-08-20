@@ -13,8 +13,11 @@ public class Enemy : MonoBehaviour
     public Transform firePoint;
     public GameObject bulletPrefab;
     public GameObject corpsePrefab;
+    public GameObject burnedPrefab;
 
     private GameObject gameDirector;
+    private bool killedBySaber;
+    private bool killedByForce;
 
     public Color bulletColor;
 
@@ -51,11 +54,31 @@ public class Enemy : MonoBehaviour
         score = scoreMultiplier * score;
     }
 
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log(collision.transform.name + " I was killed by this!");
+        if (collision.transform.name.Contains("SaberHit")) {
+            killedBySaber = true;
+        }
+        else if(collision.transform.name.Contains("Force") || collision.transform.name.Contains("force"))
+        {
+            killedByForce = true;
+        }
+    }
+    	
     private void OnDestroy()
     {
         gameDirector.GetComponent<GameDirector>().RemoveEnemy(score);
-
-        GameObject corpse = Instantiate(corpsePrefab, myBody.position, Quaternion.identity);
+        GameObject corpse;
+        if (killedByForce)
+        {
+            corpse = Instantiate(burnedPrefab, myBody.position, Quaternion.identity);   
+        }
+        else
+        {
+            corpse = Instantiate(corpsePrefab, myBody.position, Quaternion.identity);   
+            
+        }
 
         corpse.GetComponent<SpriteRenderer>().flipX = sr.flipX;
         corpse.transform.localScale = transform.localScale;
