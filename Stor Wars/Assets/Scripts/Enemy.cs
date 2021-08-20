@@ -40,8 +40,8 @@ public class Enemy : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
         audio = GetComponent<AudioSource>();
-        player = GameObject.FindGameObjectsWithTag("Player")[0];
-        gameDirector = GameObject.FindGameObjectsWithTag("GameDirector")[0];
+        player = GameObject.FindWithTag("Player");
+        gameDirector = GameObject.FindWithTag("GameDirector");
 
         gameDirector.GetComponent<GameDirector>().AddEnemy();
     }
@@ -57,7 +57,6 @@ public class Enemy : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log(collision.transform.name + " I was killed by this!");
         if (collision.transform.name.Contains("SaberHit")) {
             killedBySaber = true;
         }
@@ -97,7 +96,6 @@ public class Enemy : MonoBehaviour
         Vector3 playerPos = player.transform.position;
 
         var distance = Vector3.Distance(pos,playerPos);
-        Debug.Log("The distance is! " + distance);
 
         if(timeRemaining < TIME_TO_RELOAD)
         {

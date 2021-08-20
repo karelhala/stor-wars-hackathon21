@@ -73,6 +73,9 @@ public class GameDirector : MonoBehaviour
         var newTimeToReload = selectMaxFloat(8 - (1 * currentDifficultyLevel), 1);
         var newMinimalDistance = 4 + (1 * currentDifficultyLevel);
         var newSpeed = 0.03f + (0.05f * currentDifficultyLevel);
+        var player = GameObject.FindWithTag("Player");
+
+        player.GetComponent<Movement>().setDmg(currentDifficultyLevel);
 
         enemy.GetComponent<Enemy>().SetStats(newTimeToReload, newMinimalDistance, newSpeed, (int)selectMaxFloat(currentDifficultyLevel, 1));
     }

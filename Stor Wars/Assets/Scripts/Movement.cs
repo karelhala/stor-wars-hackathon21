@@ -24,6 +24,7 @@ public class Movement : MonoBehaviour
     public AudioSource saberHit;
     public GameObject saberPrefab;
     public Color color;
+    private int dmg = 0;
 
     private Vector2 movement;
 
@@ -89,7 +90,7 @@ public class Movement : MonoBehaviour
 
     private void TakeHit()
     {
-        currentHealth -= 2;
+        currentHealth -= dmg == 0 ? 1 : dmg;
         healthBar.SetHealth(currentHealth);
 
         if(currentHealth <= 0)
@@ -118,6 +119,11 @@ public class Movement : MonoBehaviour
         {
             forcRefreshing = true;
         }
+    }
+
+    public void setDmg(int newDmg)
+    {
+        dmg = newDmg;
     }
 
     void OnTriggerExit2D(Collider2D collision)
