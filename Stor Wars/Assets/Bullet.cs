@@ -15,6 +15,7 @@ public class Bullet : MonoBehaviour
         {
             GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
             effect.GetComponent<Animation_Auto_Destroy>().SetColor(this.color);
+            effect.transform.localScale = new Vector3(3, 3, 1);
             // Destroy(effect, 1);
             if(collision.transform.CompareTag("Enemy"))
             {

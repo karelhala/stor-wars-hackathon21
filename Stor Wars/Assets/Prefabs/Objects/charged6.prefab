@@ -118,7 +118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitEffect: {fileID: 3954560517142508271, guid: 98c5e1d36947add45967f48bc21d7fde, type: 3}
-  creator: {fileID: 0}
+  creator: {fileID: 7640611362373486082, guid: 38ba08a50b2890c4094163f73338d47d, type: 3}
 --- !u!50 &4937513133826017149
 Rigidbody2D:
   serializedVersion: 4
