@@ -89,7 +89,7 @@ public class Movement : MonoBehaviour
 
     private void TakeHit()
     {
-        currentHealth -= 1;
+        currentHealth -= 2;
         healthBar.SetHealth(currentHealth);
 
         if(currentHealth <= 0)

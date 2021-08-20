@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameDirector : MonoBehaviour
 {
@@ -33,7 +34,7 @@ public class GameDirector : MonoBehaviour
     public void NextWave()
     {
         wawe += 1;
-        countdown = 10;
+        countdown = 5;
         nextWave = true;
     }
 
@@ -118,6 +119,11 @@ public class GameDirector : MonoBehaviour
             wawe += 1;
             countdown = 0;
             GenerateWave();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("MainMenuScene");
         }
     }
 

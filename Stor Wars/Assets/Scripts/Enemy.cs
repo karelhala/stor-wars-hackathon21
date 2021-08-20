@@ -24,7 +24,7 @@ public class Enemy : MonoBehaviour
     private string WALK = "WALK";
     private string SHOOTING = "Shooting";
 
-    public float TIME_TO_RELOAD = 5;
+    public float TIME_TO_RELOAD = 2;
     public float MINIMAL_DISTANCE = 5;
     public float SPEED = 0.03f;
 
