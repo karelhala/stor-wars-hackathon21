@@ -9,6 +9,7 @@ public class Shooting : MonoBehaviour
     private Rigidbody2D myBody;
     private SpriteRenderer sr;
     private Force_Bar forceBar;
+    public AudioSource forceAudio;
 
     public float bulletForce = 20f;
 
@@ -29,6 +30,7 @@ public class Shooting : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.RightControl) || Input.GetKeyDown(KeyCode.LeftControl) && forceBar.GetForce() > 0)
         {
+            forceAudio.PlayOneShot(forceAudio.clip);
             Shoot();
         }
         
